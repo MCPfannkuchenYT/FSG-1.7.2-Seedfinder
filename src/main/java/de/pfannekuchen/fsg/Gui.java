@@ -167,7 +167,7 @@ public class Gui extends JFrame {
 							field.setListData(list);
 							field.setSelectedIndex(x);
 							System.out.println("new seed found: " + list.get(list.size() - 1) + " - " + pyramidCPos + ":" + villageCPos + ":" + fortressPos);
-							
+							break;
 						}
 					}
 					System.out.println("Seedfinding done...");
