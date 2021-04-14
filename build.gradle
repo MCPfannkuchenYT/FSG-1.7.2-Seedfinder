@@ -1,0 +1,14 @@
+plugins {
+    id 'java-library'
+}
+
+repositories {
+	 mavenCentral()
+	 maven {
+		 url "https://jitpack.io"
+	 }
+}
+
+dependencies {
+	 implementation 'com.github.KaptainWutax:SEED:master-SNAPSHOT'
+}
