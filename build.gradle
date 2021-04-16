@@ -10,5 +10,6 @@ repositories {
 }
 
 dependencies {
-	 implementation 'com.github.KaptainWutax:SEED:master-SNAPSHOT'
+	 compile 'com.github.KaptainWutax:SEED:master-SNAPSHOT'
+	 compile files('libs/BigArrayList-1.3.jar')
 }
